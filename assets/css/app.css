@@ -1,0 +1,65 @@
+:root{
+    --COLOR-PRIMART: #0B9586;
+    --COLOR-SECUNDARY: #283646;
+}
+
+a{
+    color: unset;
+    text-decoration: none;
+}
+
+.bg-primary{
+    background-color: var(--COLOR-PRIMART);
+}
+
+.bg-secundary{
+    background-color: var(--COLOR-SECUNDARY);
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-direction-column{
+    flex-direction: column;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.justify-around{
+    justify-content: space-around;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.grid{
+    display: grid;
+}
+
+.cg-2{
+    column-gap: 10px;
+}
+
+.cg-4{
+    column-gap: 20px;
+}
+
+.rg-2{
+    row-gap: 10px;
+}
+
+.rg-4{
+    row-gap: 20px;
+}
