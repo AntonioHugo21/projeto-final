@@ -6,6 +6,8 @@
 a{
     color: unset;
     text-decoration: none;
+    font-size: 18px;
+    line-height: 6;
 }
 
 .bg-primary{
@@ -62,4 +64,8 @@ a{
 
 .rg-4{
     row-gap: 20px;
+}
+
+.gap{
+    gap: 0;
 }
