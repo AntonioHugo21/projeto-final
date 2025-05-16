@@ -3,11 +3,26 @@
     --COLOR-SECUNDARY: #283646;
 }
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
 a{
     color: unset;
     text-decoration: none;
     font-size: 18px;
     line-height: 6;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.p-img{
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .bg-primary{
@@ -68,4 +83,36 @@ a{
 
 .gap{
     gap: 0;
+}
+
+.img-banner{
+    width: 100%;
+}
+
+.imagem-com-texto {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.texto-sobre-imagem h1 {
+position: absolute;
+  top: 30%; /* centraliza verticalmente */
+  left: 20%; /* centraliza horizontalmente */
+  transform: translate(-50%, -50%); /* ajusta a posição para o centro exato */
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.texto-sobre-imagem p {
+position: absolute;
+  top: 40%; /* centraliza verticalmente */
+  left: 30%; /* centraliza horizontalmente */
+  transform: translate(-50%, -50%); /* ajusta a posição para o centro exato */
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
 }
