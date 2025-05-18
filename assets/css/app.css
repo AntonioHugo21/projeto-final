@@ -1,0 +1,118 @@
+:root{
+    --COLOR-PRIMART: #0B9586;
+    --COLOR-SECUNDARY: #283646;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    color: unset;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 6;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.p-img{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.bg-primary{
+    background-color: var(--COLOR-PRIMART);
+}
+
+.bg-secundary{
+    background-color: var(--COLOR-SECUNDARY);
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-direction-column{
+    flex-direction: column;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.justify-around{
+    justify-content: space-around;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.grid{
+    display: grid;
+}
+
+.cg-2{
+    column-gap: 10px;
+}
+
+.cg-4{
+    column-gap: 20px;
+}
+
+.rg-2{
+    row-gap: 10px;
+}
+
+.rg-4{
+    row-gap: 20px;
+}
+
+.gap{
+    gap: 0;
+}
+
+.img-banner{
+    width: 100%;
+}
+
+.imagem-com-texto {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.texto-sobre-imagem h1 {
+position: absolute;
+  top: 30%; /* centraliza verticalmente */
+  left: 20%; /* centraliza horizontalmente */
+  transform: translate(-50%, -50%); /* ajusta a posição para o centro exato */
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.texto-sobre-imagem p {
+position: absolute;
+  top: 40%; /* centraliza verticalmente */
+  left: 30%; /* centraliza horizontalmente */
+  transform: translate(-50%, -50%); /* ajusta a posição para o centro exato */
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+}
