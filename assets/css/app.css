@@ -1,6 +1,7 @@
 :root{
-    --COLOR-PRIMART: #0B9586;
+    --COLOR-PRIMARY: #0B9586;
     --COLOR-SECUNDARY: #283646;
+    --COLOR-THIRD: #FFBB1C;
 }
 
 *{
@@ -26,11 +27,15 @@ h1{
 }
 
 .bg-primary{
-    background-color: var(--COLOR-PRIMART);
+    background-color: var(--COLOR-PRIMARY);
 }
 
 .bg-secundary{
     background-color: var(--COLOR-SECUNDARY);
+}
+
+.bg-third{
+    background-color: var(--COLOR-THIRD);
 }
 
 .flex{
@@ -79,5 +84,89 @@ h1{
 
 .rg-4{
     row-gap: 20px;
+}
+
+.btn{
+    color: white;
+    border-radius: 20px;
+    padding: 10px 25px;
+    font-size: 8pt;
+    font-weight: 800;
+    border: unset;
+}
+
+.btn-primary{
+    color: white;
+    background-color: var(--COLOR-PRIMARY);
+}
+
+.btn-secundary{
+    color: black;
+    background-color: var(--COLOR-THIRD);
+}
+
+.gap{
+    gap: 0;
+}
+
+.img-banner{
+    width: 100%;
+}
+
+.imagem-com-texto {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.texto-sobre-imagem h1 {
+position: absolute;
+  top: 30%; /* centraliza verticalmente */
+  left: 20%; /* centraliza horizontalmente */
+  transform: translate(-50%, -50%); /* ajusta a posição para o centro exato */
+  color: white;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.texto-sobre-imagem pre {
+position: absolute;
+  top: 45%; /* centraliza verticalmente */
+  left: 20%; /* centraliza horizontalmente */
+  transform: translate(-50%, -50%); /* ajusta a posição para o centro exato */
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.texto-sobre-imagem .btn-primary {
+  position: absolute;
+  top: 55%; /* Ajuste conforme necessário */
+  left: 17%; /* Ajuste conforme necessário */
+  transform: translate(-50%, -50%);
+  color: white;
+  border-radius: 7px;
+  padding: 10px 25px;
+  font-size: 8pt;
+  font-weight: 800;
+  border: unset;
+  background-color: var(--COLOR-PRIMARY);
+}
+
+.texto-sobre-imagem .btn-secundary {
+  position: absolute;
+  top: 55%; /* Ajuste conforme necessário */
+  left: 35%; /* Ajuste conforme necessário */
+  transform: translate(-50%, -50%);
+  color: black;
+  border-radius: 7px;
+  padding: 10px 25px;
+  font-size: 8pt;
+  font-weight: 800;
+  border: unset;
+  background-color: var(--COLOR-THIRD);
 }
 
