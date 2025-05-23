@@ -86,6 +86,16 @@ h1{
     row-gap: 20px;
 }
 
+.card {
+    box-shadow: -1px -2px 8px 1px rgba(0,0,0,0.34);
+    border-radius: 7px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    background-color: var(--COLOR-GRAY);
+}
+
 .btn{
     color: white;
     border-radius: 20px;
@@ -168,5 +178,10 @@ position: absolute;
   font-weight: 800;
   border: unset;
   background-color: var(--COLOR-THIRD);
+}
+
+.ver-integracao{
+    color: var(--COLOR-PRIMARY);
+    font-weight: 550;
 }
 
