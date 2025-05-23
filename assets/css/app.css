@@ -102,8 +102,12 @@ pre{
     row-gap: 20px;
 }
 
+
+.card {
+    box-shadow: -1px -2px 8px gba(0,0,0,0.34);=======
 .card{
     box-shadow: -1 -2 8px 1px rgba(0, 0, 0, 0.34);
+
     border-radius: 7px;
     padding: 30px;
     display: flex;
@@ -196,7 +200,11 @@ position: absolute;
   background-color: var(--COLOR-THIRD);
 }
 
-.imagem-cards{
+
+.ver-integracao{
+    color: var(--COLOR-PRIMARY);
+    font-weight: 550;
+=====imagem-cards{
     width: 100%;
 }
 
