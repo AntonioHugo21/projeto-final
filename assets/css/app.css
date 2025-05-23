@@ -2,6 +2,7 @@
     --COLOR-PRIMARY: #0B9586;
     --COLOR-SECUNDARY: #283646;
     --COLOR-THIRD: #FFBB1C;
+    --COLOR-GRAY: #f2f4f8;
 }
 
 *{
@@ -21,6 +22,17 @@ h1{
     font-weight: bold;
 }
 
+pre{
+    font-size: 18px;
+    font-weight: 400;
+    color: #475467;
+}
+
+.p-produtos{
+    font-size: 16pt;
+    color: #475467;
+    align-items: left;
+}
 .p-img{
     font-size: 20px;
     font-weight: bold;
@@ -36,6 +48,10 @@ h1{
 
 .bg-third{
     background-color: var(--COLOR-THIRD);
+}
+
+.bg-gray{
+    background-color: var(--COLOR-GRAY);
 }
 
 .flex{
@@ -84,6 +100,16 @@ h1{
 
 .rg-4{
     row-gap: 20px;
+}
+
+.card{
+    box-shadow: -1 -2 8px 1px rgba(0, 0, 0, 0.34);
+    border-radius: 7px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    background-color: var(--COLOR-GRAY);
 }
 
 .btn{
@@ -168,5 +194,15 @@ position: absolute;
   font-weight: 800;
   border: unset;
   background-color: var(--COLOR-THIRD);
+}
+
+.imagem-cards{
+    width: 100%;
+}
+
+.ver-integracao{
+    color: var(--COLOR-PRIMARY);
+    font-weight: 550;
+    font-size: 20px;
 }
 
