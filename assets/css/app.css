@@ -2,6 +2,7 @@
     --COLOR-PRIMARY: #0B9586;
     --COLOR-SECUNDARY: #283646;
     --COLOR-THIRD: #FFBB1C;
+    --COLOR-GRAY: #f2f4f8;
 }
 
 *{
@@ -21,6 +22,22 @@ h1{
     font-weight: bold;
 }
 
+.h3-cards{
+    font-size: 20;
+    font-weight: 800;
+}
+
+pre{
+    font-size: 18px;
+    font-weight: 400;
+    color: #475467;
+}
+
+.p-produtos{
+    font-size: 16pt;
+    color: #475467;
+    align-items: left;
+}
 .p-img{
     font-size: 20px;
     font-weight: bold;
@@ -36,6 +53,10 @@ h1{
 
 .bg-third{
     background-color: var(--COLOR-THIRD);
+}
+
+.bg-gray{
+    background-color: var(--COLOR-GRAY);
 }
 
 .flex{
