@@ -3,6 +3,7 @@
     --COLOR-SECUNDARY: #283646;
     --COLOR-THIRD: #FFBB1C;
     --COLOR-GRAY: #f2f4f8;
+    --COLOR-GREEN: #84BD3A;
 }
 
 *{
@@ -33,6 +34,11 @@ pre{
     color: #475467;
 }
 
+p{
+    font-size: 25px;
+    font-weight: 600;
+}
+
 .p-produtos{
     font-size: 16pt;
     color: #475467;
@@ -57,6 +63,10 @@ pre{
 
 .bg-gray{
     background-color: var(--COLOR-GRAY);
+}
+
+.bg-green{
+    color: var(--COLOR-GREEN);
 }
 
 .flex{
@@ -128,6 +138,10 @@ pre{
 
 .gap{
     gap: 0;
+}
+
+img{
+   object-fit: cover; 
 }
 
 .img-banner{
