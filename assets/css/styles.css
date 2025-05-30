@@ -3,6 +3,10 @@ header{
     padding: 20px 50px;
 }
 
+footer{
+    color: white;
+    padding: 20px 50px;
+}
 
 #cards {
     display: grid;
