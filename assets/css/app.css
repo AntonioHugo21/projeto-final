@@ -44,7 +44,14 @@ pre {
     font-weight: bold;
 }
 
+
 .bg-primary {
+.p-comentario{
+    color: var(--COLOR-PRIMARY);
+}
+
+.bg-primary{
+
     background-color: var(--COLOR-PRIMARY);
 }
 
@@ -108,7 +115,21 @@ pre {
     row-gap: 100px;
 }
 
+
 .btn {
+
+.card {
+    box-shadow: -1px -2px 8px 1px rgba(0,0,0,0.34);
+    border-radius: 7px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    background-color: var(--COLOR-GRAY);
+}
+
+.btn{
+
     color: white;
     border-radius: 20px;
     padding: 10px 25px;
