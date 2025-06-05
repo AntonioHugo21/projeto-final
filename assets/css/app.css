@@ -130,6 +130,18 @@ pre{
     gap: 0;
 }
 
+img{
+    object-fit: cover;
+}
+
+.img-logo{
+    height: 50px;
+    margin: 5px 10px;
+    position: relative;
+    top: 20px;
+    
+}
+
 .img-banner{
     width: 100%;
 }
