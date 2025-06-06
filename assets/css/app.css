@@ -3,6 +3,7 @@
     --COLOR-SECUNDARY: #283646;
     --COLOR-THIRD: #FFBB1C;
     --COLOR-GRAY: #f2f4f8;
+    --COLOR-WHITE: white;
 }
 
 *{
@@ -20,6 +21,14 @@ a{
 h1{
     font-size: 40px;
     font-weight: bold;
+}
+
+.h1-login{
+    margin-top: 60px;
+}
+
+.h2-pesquisas{
+    color: var(--COLOR-PRIMARY);
 }
 
 .h3-cards{
@@ -57,6 +66,10 @@ pre{
 
 .bg-gray{
     background-color: var(--COLOR-GRAY);
+}
+
+.bg-white{
+    background-color: var(--COLOR-WHITE);
 }
 
 .flex{
@@ -116,6 +129,17 @@ pre{
     border: unset;
 }
 
+.btn-login{
+    color: black;
+    border-radius: 10px;
+    padding: 10px 25px;
+    font-size: 8pt;
+    font-weight: 800;
+    border: unset;
+    height: 50px;
+    width: 130px;
+}
+
 .btn-primary{
     color: white;
     background-color: var(--COLOR-PRIMARY);
@@ -124,6 +148,11 @@ pre{
 .btn-secundary{
     color: black;
     background-color: var(--COLOR-THIRD);
+}
+
+.enviar-formulario{
+    background-color: var(--COLOR-THIRD);
+    color: black;
 }
 
 .gap{
@@ -140,6 +169,10 @@ img{
     position: relative;
     top: 20px;
     
+}
+.gap-login{
+    gap: 10px;
+
 }
 
 .img-banner{
@@ -203,3 +236,20 @@ position: absolute;
   background-color: var(--COLOR-THIRD);
 }
 
+input{
+    border-radius: 8px;
+    padding: 4px 12px;
+    width: 300px;
+    height: 30px;
+}
+
+.input-button{
+     color: black;
+    border-radius: 10px;
+    padding: 10px 25px;
+    font-size: 8pt;
+    font-weight: 800;
+    border: unset;
+    height: 50px;
+    width: 130px;
+}
