@@ -3,7 +3,18 @@ header {
     padding: 20px 50px;
 }
 
+textarea{
+    width: 250px;
+    height: 100px;
 
+}
+
+
+#cards {
+    display: column;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
 .imagem-contato {
     background-image: url(/assets/img/imagem_contato.jpg);
     background-size: cover;

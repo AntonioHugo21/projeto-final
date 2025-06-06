@@ -6,9 +6,10 @@
   <title>SolarTech</title>
   <link rel="stylesheet" href="/assets/css/styles.css">
   <link rel="stylesheet" href="/assets/css/app.css">
+  <link rel="stylesheet" href="/assets/js/script.js">
 </head>
 <body>
-    <header class="header flex wrap rg-4 justify-between bg-primary">
+    <header id="header" class="header flex wrap rg-4 justify-between bg-primary">
       <img src="/assets/img/image-removebg-preview.png" alt="Logo SolarTech">
       <nav class="flex cg-4">
         <a href="#">Início</a>
@@ -65,13 +66,17 @@
       <!-- Seção dos colaboradores -->
     </section>
 
-    <section id="cards" class="grid">
+    <section >
       <!-- Seção de pesquisas -->
-      <h1>O que dizem sobre a SolarTech</h1>
-      <span class="card">
-        <p class="p-comentario">O que eles dizem</p>
-        <p>Mais de 3.000 usuários já foram beneficiados.</p>
-      </span>
+       <form class="flex flex-direction-column align-center rg-2" action="#header"  target="_blank">     
+          <h1 padding="10px">O que podemos melhorar?</h1><br><br>
+          <h2 class="h2-pesquisas">Nós envie sugestões</h2>
+          <textarea rows="10" cols="15"></textarea>
+          <p>Informe seu email</p> 
+          <input type="email" name="email" placeholder="seu email" size="20">
+          <input class="enviar-formulario" type="submit" value="Enviar">
+        </form>
+      </p>
     </section>
 
     <footer>
@@ -79,3 +84,12 @@
     </footer>
 </body>
 </html>
+
+<!--<h1>O que podemos melhorar?</h1>
+      <textarea rows="15" cols="40" placeholder="Nós envie sugestões"></textarea>
+      <p>
+        <form>
+          Seu email:<br>
+          <input type="email" name="email" placeholder="envie seu email" size="25"> 
+        </form>
+      </p>-->
