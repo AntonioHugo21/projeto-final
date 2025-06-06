@@ -85,6 +85,7 @@ p{
 
 .bg-green{
     color: var(--COLOR-GREEN);
+}
 
 .bg-white{
     background-color: var(--COLOR-WHITE);
@@ -116,6 +117,10 @@ p{
     align-items: center;
 }
 
+.align-left{
+    align-items: left;
+}
+
 .wrap{
     flex-wrap: wrap;
 }
@@ -142,7 +147,6 @@ p{
     row-gap: 20px;
 }
 
-
 .card {
     box-shadow: -1px -2px 8px 1px rgba(0,0,0,0.34);
     border-radius: 7px;
@@ -152,8 +156,6 @@ p{
     row-gap: 10px;
     background-color: var(--COLOR-GRAY);
 }
-
-
 
 .btn{
     color: white;
@@ -278,6 +280,7 @@ position: absolute;
 .ver-integracao{
     color: var(--COLOR-PRIMARY);
     font-weight: 550;
+}
 
 input{
     border-radius: 8px;
