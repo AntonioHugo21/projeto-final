@@ -3,6 +3,8 @@
     --COLOR-SECUNDARY: #283646;
     --COLOR-THIRD: #FFBB1C;
     --COLOR-GRAY: #f2f4f8;
+
+    --COLOR-GREEN: #84BD3A;
     --COLOR-WHITE: white;
 }
 
@@ -42,6 +44,11 @@ pre{
     color: #475467;
 }
 
+p{
+    font-size: 25px;
+    font-weight: 600;
+}
+
 .p-produtos{
     font-size: 16pt;
     color: #475467;
@@ -68,8 +75,13 @@ pre{
     background-color: var(--COLOR-GRAY);
 }
 
+
+.bg-green{
+    color: var(--COLOR-GREEN);
+
 .bg-white{
     background-color: var(--COLOR-WHITE);
+
 }
 
 .flex{
@@ -160,6 +172,9 @@ pre{
 }
 
 img{
+
+   object-fit: cover; 
+
     object-fit: cover;
 }
 
