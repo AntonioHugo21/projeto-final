@@ -96,6 +96,10 @@ pre{
     align-items: center;
 }
 
+.align-left{
+    align-items: left;
+}
+
 .wrap{
     flex-wrap: wrap;
 }
@@ -118,6 +122,16 @@ pre{
 
 .rg-4{
     row-gap: 20px;
+}
+
+.card {
+    box-shadow: -1px -2px 8px 1px rgba(0,0,0,0.34);
+    border-radius: 7px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    background-color: var(--COLOR-GRAY);
 }
 
 .btn{
