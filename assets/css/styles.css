@@ -8,6 +8,11 @@ footer{
     padding: 20px 50px;
 }
 
+.img-footer{
+    width: 200px;
+    height: 70px;
+}
+
 #cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
