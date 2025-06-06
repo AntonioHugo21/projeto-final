@@ -3,7 +3,9 @@
     --COLOR-SECUNDARY: #283646;
     --COLOR-THIRD: #FFBB1C;
     --COLOR-GRAY: #f2f4f8;
+
     --COLOR-GREEN: #84BD3A;
+    --COLOR-WHITE: white;
 }
 
 *{
@@ -21,6 +23,14 @@ a{
 h1{
     font-size: 40px;
     font-weight: bold;
+}
+
+.h1-login{
+    margin-top: 60px;
+}
+
+.h2-pesquisas{
+    color: var(--COLOR-PRIMARY);
 }
 
 .h3-cards{
@@ -65,8 +75,13 @@ p{
     background-color: var(--COLOR-GRAY);
 }
 
+
 .bg-green{
     color: var(--COLOR-GREEN);
+
+.bg-white{
+    background-color: var(--COLOR-WHITE);
+
 }
 
 .flex{
@@ -126,6 +141,17 @@ p{
     border: unset;
 }
 
+.btn-login{
+    color: black;
+    border-radius: 10px;
+    padding: 10px 25px;
+    font-size: 8pt;
+    font-weight: 800;
+    border: unset;
+    height: 50px;
+    width: 130px;
+}
+
 .btn-primary{
     color: white;
     background-color: var(--COLOR-PRIMARY);
@@ -136,12 +162,32 @@ p{
     background-color: var(--COLOR-THIRD);
 }
 
+.enviar-formulario{
+    background-color: var(--COLOR-THIRD);
+    color: black;
+}
+
 .gap{
     gap: 0;
 }
 
 img{
+
    object-fit: cover; 
+
+    object-fit: cover;
+}
+
+.img-logo{
+    height: 70px;
+    margin: 5px 10px;
+    position: relative;
+    top: 20px;
+    
+}
+.gap-login{
+    gap: 10px;
+
 }
 
 .img-banner{
@@ -205,3 +251,20 @@ position: absolute;
   background-color: var(--COLOR-THIRD);
 }
 
+input{
+    border-radius: 8px;
+    padding: 4px 12px;
+    width: 300px;
+    height: 30px;
+}
+
+.input-button{
+     color: black;
+    border-radius: 10px;
+    padding: 10px 25px;
+    font-size: 8pt;
+    font-weight: 800;
+    border: unset;
+    height: 50px;
+    width: 130px;
+}
