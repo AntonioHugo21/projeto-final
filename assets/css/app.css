@@ -2,6 +2,8 @@
     --COLOR-PRIMARY: #0B9586;
     --COLOR-SECUNDARY: #283646;
     --COLOR-THIRD: #FFBB1C;
+
+
     --COLOR-GRAY: #f2f4f8;
 
     --COLOR-GREEN: #84BD3A;
@@ -24,6 +26,8 @@ h1{
     font-size: 40px;
     font-weight: bold;
 }
+
+
 
 .h1-login{
     margin-top: 60px;
@@ -54,6 +58,7 @@ p{
     color: #475467;
     align-items: left;
 }
+
 .p-img{
     font-size: 20px;
     font-weight: bold;
@@ -71,6 +76,8 @@ p{
     background-color: var(--COLOR-THIRD);
 }
 
+
+
 .bg-gray{
     background-color: var(--COLOR-GRAY);
 }
@@ -83,6 +90,7 @@ p{
     background-color: var(--COLOR-WHITE);
 
 }
+
 
 .flex{
     display: flex;
@@ -133,6 +141,19 @@ p{
 .rg-4{
     row-gap: 20px;
 }
+
+
+.card {
+    box-shadow: -1px -2px 8px 1px rgba(0,0,0,0.34);
+    border-radius: 7px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    background-color: var(--COLOR-GRAY);
+}
+
+
 
 .btn{
     color: white;
@@ -253,11 +274,17 @@ position: absolute;
   background-color: var(--COLOR-THIRD);
 }
 
+
+.ver-integracao{
+    color: var(--COLOR-PRIMARY);
+    font-weight: 550;
+
 input{
     border-radius: 8px;
     padding: 4px 12px;
     width: 300px;
     height: 30px;
+
 }
 
 .input-button{
