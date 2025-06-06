@@ -1,6 +1,19 @@
 header {
     color: white;
+    padding: 10px 50px;
+}
+
+
+footer{
+    color: white;
     padding: 20px 50px;
+}
+
+
+
+.img-footer{
+    width: 200px;
+    height: 70px;
 }
 
 textarea{
@@ -9,11 +22,14 @@ textarea{
 
 }
 
+.margin-top{
+
 
 #cards {
     display: column;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 30px;
+
     margin-top: 40px;
 }
 
