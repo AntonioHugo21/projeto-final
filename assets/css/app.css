@@ -143,11 +143,16 @@ pre{
 .btn-primary{
     color: white;
     background-color: var(--COLOR-PRIMARY);
+    padding: 4px 12px;
+    width: 400px;
+    height: 40px;
 }
-
 .btn-secundary{
     color: black;
     background-color: var(--COLOR-THIRD);
+    padding: 4px 12px;
+    width: 400px;
+    height: 40px;
 }
 
 .enviar-formulario{
@@ -211,12 +216,12 @@ position: absolute;
 .texto-sobre-imagem .btn-primary {
   position: absolute;
   top: 55%; /* Ajuste conforme necessário */
-  left: 17%; /* Ajuste conforme necessário */
+  left: 23.4%; /* Ajuste conforme necessário */
   transform: translate(-50%, -50%);
   color: white;
   border-radius: 7px;
   padding: 10px 25px;
-  font-size: 8pt;
+  font-size: 10pt;
   font-weight: 800;
   border: unset;
   background-color: var(--COLOR-PRIMARY);
@@ -225,12 +230,12 @@ position: absolute;
 .texto-sobre-imagem .btn-secundary {
   position: absolute;
   top: 55%; /* Ajuste conforme necessário */
-  left: 35%; /* Ajuste conforme necessário */
+  left: 55%; /* Ajuste conforme necessário */
   transform: translate(-50%, -50%);
   color: black;
   border-radius: 7px;
   padding: 10px 25px;
-  font-size: 8pt;
+  font-size: 10pt;
   font-weight: 800;
   border: unset;
   background-color: var(--COLOR-THIRD);
