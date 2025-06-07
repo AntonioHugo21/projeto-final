@@ -2,6 +2,8 @@
     --COLOR-PRIMARY: #0B9586;
     --COLOR-SECUNDARY: #283646;
     --COLOR-THIRD: #FFBB1C;
+    --COLOR-GRAY: #f2f4f8;
+    --COLOR-WHITE: white;
 }
 
 *{
@@ -21,6 +23,30 @@ h1{
     font-weight: bold;
 }
 
+.h1-login{
+    margin-top: 60px;
+}
+
+.h2-pesquisas{
+    color: var(--COLOR-PRIMARY);
+}
+
+.h3-cards{
+    font-size: 20;
+    font-weight: 800;
+}
+
+pre{
+    font-size: 18px;
+    font-weight: 400;
+    color: #475467;
+}
+
+.p-produtos{
+    font-size: 16pt;
+    color: #475467;
+    align-items: left;
+}
 .p-img{
     font-size: 20px;
     font-weight: bold;
@@ -36,6 +62,14 @@ h1{
 
 .bg-third{
     background-color: var(--COLOR-THIRD);
+}
+
+.bg-gray{
+    background-color: var(--COLOR-GRAY);
+}
+
+.bg-white{
+    background-color: var(--COLOR-WHITE);
 }
 
 .flex{
@@ -95,6 +129,17 @@ h1{
     border: unset;
 }
 
+.btn-login{
+    color: black;
+    border-radius: 10px;
+    padding: 10px 25px;
+    font-size: 8pt;
+    font-weight: 800;
+    border: unset;
+    height: 50px;
+    width: 130px;
+}
+
 .btn-primary{
     color: white;
     background-color: var(--COLOR-PRIMARY);
@@ -110,8 +155,29 @@ h1{
     height: 40px;
 }
 
+.enviar-formulario{
+    background-color: var(--COLOR-THIRD);
+    color: black;
+}
+
 .gap{
     gap: 0;
+}
+
+img{
+    object-fit: cover;
+}
+
+.img-logo{
+    height: 70px;
+    margin: 5px 10px;
+    position: relative;
+    top: 20px;
+    
+}
+.gap-login{
+    gap: 10px;
+
 }
 
 .img-banner{
@@ -175,3 +241,20 @@ position: absolute;
   background-color: var(--COLOR-THIRD);
 }
 
+input{
+    border-radius: 8px;
+    padding: 4px 12px;
+    width: 300px;
+    height: 30px;
+}
+
+.input-button{
+     color: black;
+    border-radius: 10px;
+    padding: 10px 25px;
+    font-size: 8pt;
+    font-weight: 800;
+    border: unset;
+    height: 50px;
+    width: 130px;
+}
