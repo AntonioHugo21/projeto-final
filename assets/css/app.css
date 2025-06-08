@@ -2,12 +2,10 @@
     --COLOR-PRIMARY: #0B9586;
     --COLOR-SECUNDARY: #283646;
     --COLOR-THIRD: #FFBB1C;
-
-
     --COLOR-GRAY: #f2f4f8;
-
     --COLOR-GREEN: #84BD3A;
     --COLOR-WHITE: white;
+
 }
 
 *{
@@ -26,8 +24,6 @@ h1{
     font-size: 40px;
     font-weight: bold;
 }
-
-
 
 .h1-login{
     margin-top: 60px;
@@ -166,6 +162,8 @@ p{
     border: unset;
 }
 
+
+
 .btn-login{
     color: black;
     border-radius: 10px;
@@ -177,6 +175,7 @@ p{
     width: 130px;
 }
 
+
 .btn-primary{
     color: white;
     background-color: var(--COLOR-PRIMARY);
@@ -184,6 +183,7 @@ p{
     width: 400px;
     height: 40px;
 }
+
 .btn-secundary{
     color: black;
     background-color: var(--COLOR-THIRD);
@@ -192,14 +192,22 @@ p{
     height: 40px;
 }
 
+
 .enviar-formulario{
     background-color: var(--COLOR-THIRD);
     color: black;
 }
 
+
 .gap{
     gap: 0;
 }
+
+
+.img-banner{
+    width: 100%;
+}
+
 
 img{
 
@@ -223,6 +231,7 @@ img{
 .img-banner{
     width: 100%;
 }
+
 
 .imagem-com-texto {
   position: relative;
@@ -270,7 +279,7 @@ position: absolute;
 .texto-sobre-imagem .btn-secundary {
   position: absolute;
   top: 55%; /* Ajuste conforme necessário */
-  left: 55%; /* Ajuste conforme necessário */
+  left: 55%; /* Ajuste conforme necessário */ 
   transform: translate(-50%, -50%);
   color: black;
   border-radius: 7px;
@@ -282,10 +291,13 @@ position: absolute;
 }
 
 
+
+
 .ver-integracao{
     color: var(--COLOR-PRIMARY);
     font-weight: 550;
 }
+
 
 input{
     border-radius: 8px;
