@@ -3,7 +3,9 @@
     --COLOR-SECUNDARY: #283646;
     --COLOR-THIRD: #FFBB1C;
     --COLOR-GRAY: #f2f4f8;
+    --COLOR-GREEN: #84BD3A;
     --COLOR-WHITE: white;
+
 }
 
 *{
@@ -42,11 +44,17 @@ pre{
     color: #475467;
 }
 
+p{
+    font-size: 25px;
+    font-weight: 600;
+}
+
 .p-produtos{
     font-size: 16pt;
     color: #475467;
     align-items: left;
 }
+
 .p-img{
     font-size: 20px;
     font-weight: bold;
@@ -64,13 +72,22 @@ pre{
     background-color: var(--COLOR-THIRD);
 }
 
+
+
 .bg-gray{
     background-color: var(--COLOR-GRAY);
 }
 
+
+.bg-green{
+    color: var(--COLOR-GREEN);
+}
+
 .bg-white{
     background-color: var(--COLOR-WHITE);
+
 }
+
 
 .flex{
     display: flex;
@@ -96,12 +113,18 @@ pre{
     align-items: center;
 }
 
+.align-left{
+    align-items: left;
+}
+
 .wrap{
     flex-wrap: wrap;
 }
 
 .grid{
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
 }
 
 .cg-2{
@@ -120,6 +143,16 @@ pre{
     row-gap: 20px;
 }
 
+.card {
+    box-shadow: -1px -2px 8px 1px rgba(0,0,0,0.34);
+    border-radius: 7px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    background-color: var(--COLOR-GRAY);
+}
+
 .btn{
     color: white;
     border-radius: 20px;
@@ -128,6 +161,8 @@ pre{
     font-weight: 800;
     border: unset;
 }
+
+
 
 .btn-login{
     color: black;
@@ -139,6 +174,7 @@ pre{
     height: 50px;
     width: 130px;
 }
+
 
 .btn-primary{
     color: white;
@@ -155,16 +191,27 @@ pre{
     height: 40px;
 }
 
+
 .enviar-formulario{
     background-color: var(--COLOR-THIRD);
     color: black;
 }
 
+
 .gap{
     gap: 0;
 }
 
+
+.img-banner{
+    width: 100%;
+}
+
+
 img{
+
+   object-fit: cover; 
+
     object-fit: cover;
 }
 
@@ -183,6 +230,7 @@ img{
 .img-banner{
     width: 100%;
 }
+
 
 .imagem-com-texto {
   position: relative;
@@ -241,11 +289,21 @@ position: absolute;
   background-color: var(--COLOR-THIRD);
 }
 
+
+
+
+.ver-integracao{
+    color: var(--COLOR-PRIMARY);
+    font-weight: 550;
+}
+
+
 input{
     border-radius: 8px;
     padding: 4px 12px;
     width: 300px;
     height: 30px;
+
 }
 
 .input-button{
