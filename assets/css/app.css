@@ -78,6 +78,7 @@ p{
 
 .bg-green{
     color: var(--COLOR-GREEN);
+}
 
 .bg-white{
     background-color: var(--COLOR-WHITE);
@@ -134,6 +135,16 @@ p{
     row-gap: 20px;
 }
 
+.card{
+    box-shadow: -1 -2 8px 1px rgba(0, 0, 0, 0.34);
+    border-radius: 7px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    background-color: var(--COLOR-GRAY);
+}
+
 .btn{
     color: white;
     border-radius: 20px;
@@ -174,10 +185,7 @@ p{
 }
 
 img{
-
    object-fit: cover; 
-
-    object-fit: cover;
 }
 
 .img-logo{
@@ -269,4 +277,10 @@ input{
     border: unset;
     height: 50px;
     width: 130px;
+}
+
+.ver-integracao{
+    color: var(--COLOR-PRIMARY);
+    font-weight: 550;
+    font-size: 20px;
 }
