@@ -183,6 +183,7 @@ p{
     width: 400px;
     height: 40px;
 }
+
 .btn-secundary{
     color: black;
     background-color: var(--COLOR-THIRD);
@@ -197,40 +198,32 @@ p{
     color: black;
 }
 
-
 .gap{
     gap: 0;
 }
-
 
 .img-banner{
     width: 100%;
 }
 
-
 img{
-
    object-fit: cover; 
-
-    object-fit: cover;
 }
 
 .img-logo{
     height: 70px;
     margin: 5px 10px;
     position: relative;
-    top: 20px;
-    
+    top: 20px; 
 }
+
 .gap-login{
     gap: 10px;
-
 }
 
 .img-banner{
     width: 100%;
 }
-
 
 .imagem-com-texto {
   position: relative;
@@ -239,7 +232,7 @@ img{
 }
 
 .texto-sobre-imagem h1 {
-position: absolute;
+  position: absolute;
   top: 30%; /* centraliza verticalmente */
   left: 20%; /* centraliza horizontalmente */
   transform: translate(-50%, -50%); /* ajusta a posição para o centro exato */
@@ -315,4 +308,10 @@ input{
     border: unset;
     height: 50px;
     width: 130px;
+}
+
+.ver-integracao{
+    color: var(--COLOR-PRIMARY);
+    font-weight: 550;
+    font-size: 20px;
 }
