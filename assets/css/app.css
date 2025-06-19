@@ -183,7 +183,6 @@ p{
     width: 400px;
     height: 40px;
 }
-
 .btn-secundary{
     color: black;
     background-color: var(--COLOR-THIRD);
@@ -279,7 +278,7 @@ position: absolute;
 .texto-sobre-imagem .btn-secundary {
   position: absolute;
   top: 55%; /* Ajuste conforme necessário */
-  left: 55%; /* Ajuste conforme necessário */ 
+  left: 55%; /* Ajuste conforme necessário */
   transform: translate(-50%, -50%);
   color: black;
   border-radius: 7px;
