@@ -78,6 +78,7 @@ p{
 
 .bg-green{
     color: var(--COLOR-GREEN);
+}
 
 .bg-white{
     background-color: var(--COLOR-WHITE);
