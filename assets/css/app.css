@@ -3,9 +3,9 @@
     --COLOR-SECUNDARY: #283646;
     --COLOR-THIRD: #FFBB1C;
     --COLOR-GRAY: #f2f4f8;
-
     --COLOR-GREEN: #84BD3A;
     --COLOR-WHITE: white;
+
 }
 
 *{
@@ -38,6 +38,11 @@ h1{
     font-weight: 800;
 }
 
+.card img{
+    width: 100%;
+    height: auto;
+}
+
 pre{
     font-size: 18px;
     font-weight: 400;
@@ -54,6 +59,7 @@ p{
     color: #475467;
     align-items: left;
 }
+
 .p-img{
     font-size: 20px;
     font-weight: bold;
@@ -71,6 +77,8 @@ p{
     background-color: var(--COLOR-THIRD);
 }
 
+
+
 .bg-gray{
     background-color: var(--COLOR-GRAY);
 }
@@ -84,6 +92,7 @@ p{
     background-color: var(--COLOR-WHITE);
 
 }
+
 
 .flex{
     display: flex;
@@ -109,12 +118,18 @@ p{
     align-items: center;
 }
 
+.align-left{
+    align-items: left;
+}
+
 .wrap{
     flex-wrap: wrap;
 }
 
 .grid{
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
 }
 
 .cg-2{
@@ -133,6 +148,16 @@ p{
     row-gap: 20px;
 }
 
+.card {
+    box-shadow: -1px -2px 8px 1px rgba(0,0,0,0.34);
+    border-radius: 7px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    background-color: var(--COLOR-GRAY);
+}
+
 .btn{
     color: white;
     border-radius: 20px;
@@ -141,6 +166,8 @@ p{
     font-weight: 800;
     border: unset;
 }
+
+
 
 .btn-login{
     color: black;
@@ -153,15 +180,23 @@ p{
     width: 130px;
 }
 
+
 .btn-primary{
     color: white;
     background-color: var(--COLOR-PRIMARY);
+    padding: 4px 12px;
+    width: 400px;
+    height: 40px;
 }
 
 .btn-secundary{
     color: black;
     background-color: var(--COLOR-THIRD);
+    padding: 4px 12px;
+    width: 400px;
+    height: 40px;
 }
+
 
 .enviar-formulario{
     background-color: var(--COLOR-THIRD);
@@ -172,23 +207,23 @@ p{
     gap: 0;
 }
 
+.img-banner{
+    width: 100%;
+}
+
 img{
-
    object-fit: cover; 
-
-    object-fit: cover;
 }
 
 .img-logo{
     height: 70px;
     margin: 5px 10px;
     position: relative;
-    top: 20px;
-    
+    top: 20px; 
 }
+
 .gap-login{
     gap: 10px;
-
 }
 
 .img-banner{
@@ -202,7 +237,7 @@ img{
 }
 
 .texto-sobre-imagem h1 {
-position: absolute;
+  position: absolute;
   top: 30%; /* centraliza verticalmente */
   left: 20%; /* centraliza horizontalmente */
   transform: translate(-50%, -50%); /* ajusta a posição para o centro exato */
@@ -227,12 +262,12 @@ position: absolute;
 .texto-sobre-imagem .btn-primary {
   position: absolute;
   top: 55%; /* Ajuste conforme necessário */
-  left: 17%; /* Ajuste conforme necessário */
+  left: 23.4%; /* Ajuste conforme necessário */
   transform: translate(-50%, -50%);
   color: white;
   border-radius: 7px;
   padding: 10px 25px;
-  font-size: 8pt;
+  font-size: 10pt;
   font-weight: 800;
   border: unset;
   background-color: var(--COLOR-PRIMARY);
@@ -241,15 +276,20 @@ position: absolute;
 .texto-sobre-imagem .btn-secundary {
   position: absolute;
   top: 55%; /* Ajuste conforme necessário */
-  left: 35%; /* Ajuste conforme necessário */
+  left: 55%; /* Ajuste conforme necessário */
   transform: translate(-50%, -50%);
   color: black;
   border-radius: 7px;
   padding: 10px 25px;
-  font-size: 8pt;
+  font-size: 10pt;
   font-weight: 800;
   border: unset;
   background-color: var(--COLOR-THIRD);
+}
+
+.ver-integracao{
+    color: var(--COLOR-PRIMARY);
+    font-weight: 550;
 }
 
 input{
@@ -257,6 +297,7 @@ input{
     padding: 4px 12px;
     width: 300px;
     height: 30px;
+
 }
 
 .input-button{
@@ -268,4 +309,10 @@ input{
     border: unset;
     height: 50px;
     width: 130px;
+}
+
+.ver-integracao{
+    color: var(--COLOR-PRIMARY);
+    font-weight: 550;
+    font-size: 20px;
 }
