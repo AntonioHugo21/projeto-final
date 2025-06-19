@@ -22,18 +22,11 @@ textarea{
 
 }
 
-<<<<<<< HEAD
-.cards {
-    display: column;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 30px;
-=======
 #cards {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 30px;
     margin-top: 40px;
->>>>>>> secao-colaboradores
 }
     
 .imagem-contato {

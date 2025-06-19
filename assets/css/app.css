@@ -287,17 +287,10 @@ position: absolute;
   background-color: var(--COLOR-THIRD);
 }
 
-
-
-
 .ver-integracao{
     color: var(--COLOR-PRIMARY);
     font-weight: 550;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> secao-colaboradores
 
 input{
     border-radius: 8px;
