@@ -38,6 +38,11 @@ h1{
     font-weight: 800;
 }
 
+.card img{
+    width: 100%;
+    height: auto;
+}
+
 pre{
     font-size: 18px;
     font-weight: 400;
@@ -289,7 +294,10 @@ position: absolute;
     color: var(--COLOR-PRIMARY);
     font-weight: 550;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> secao-colaboradores
 
 input{
     border-radius: 8px;
