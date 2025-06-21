@@ -8,21 +8,12 @@
   <link rel="stylesheet" href="/assets/css/app.css">
 </head>
 <body>
-<<<<<<< HEAD
-<<<<<<< HEAD
    <header id="header" class="header flex wrap rg-4 justify-between bg-primary">
-=======
-    <header id="header" class="header flex wrap rg-4 justify-between bg-primary">
->>>>>>> secao-pesquisas
-=======
-   <header id="header" class="header flex wrap rg-4 justify-between bg-primary">
->>>>>>> 8eec03b13ba3829eacb6c1b6d3264a294529f740
       <img class="img-logo" src="/assets/img/image-removebg-preview.png" alt="Logo SolarTech">
       <nav class="flex cg-4">
-        <a href="#">Início</a>
-        <a href="#">Troca</a>
-        <a href="#">Comprar</a>
-        <a href="#">Suporte</a>
+        <a href="#objetivos">Início</a>
+        <a href="#produtos">Comprar</a>
+        <a href="#contato">Suporte</a>
       </nav>
       <div class="flex-direction-column gap">
         <p>Nos contacte</p>
@@ -30,34 +21,21 @@
       </div>
     </header>
   
-   <section class="imagem-com-texto">
+   <section id="banner" class="imagem-com-texto">
       <!--Seção do baner inicial -->
        <img class="img-banner" src="/assets/img/banner_inicial.png" alt="Banner Inicial">
        <div class="texto-sobre-imagem">
-        <h1>Painéis solarTech</h1>
+        <h1>Painéis SolarTech</h1>
         <pre class="pre-img">
                                         A SolarTech é uma premiada consultoria de tecnologia que transforma
                                         negócios gerando ideias, desenvolvendo produtos e acelerando o
                                         crescimento.
             </pre>
-        <button class="btn btn-primary">Ligue para nós hoje mesmo</button>
-        <button class="btn btn-secundary">Solicitar uma ligação de retorno</button>
+        <a href="#pesquisas" class="btn btn-primary">Envie-nos uma mensagem!</a>
        </div>
       </section>
-<<<<<<< HEAD
-<<<<<<< HEAD
-   
-  <section id="id-objetivos" class="flex justify-around margin-top">
-=======
 
-  <section class=>
-    <!-- Seção do baner inicial -->
-  </section>
->>>>>>> secao-pesquisas
-=======
-
-  <section id="id-objetivos" class="flex justify-around margin-top">
->>>>>>> 8eec03b13ba3829eacb6c1b6d3264a294529f740
+  <section id="objetivos" class="flex justify-around margin-top">
     <!-- Seção sobre os objetivos da empresa -->
     <div class="flex flex-direction-column rg-4">
       <h1>Os Instaladores Mais Amigáveis do Nordeste</h1>
@@ -75,12 +53,12 @@
     <img src="/assets/img/objetivos_empresa.jpg" alt="Objetivos Empresa">
   </section>
 
-   <section id="id-contato" class="imagem-contato flex flex-direction-column align-center rg-4">
+   <section id="contato" class="imagem-contato flex flex-direction-column align-center rg-4">
       <!-- Seção para contato com a empresa -->
         <div class="conteudo-espacamento">
           <h1>Poder que não custa a Terra</h1>
           <p>Precisa de orientação? Ligue para nós: +55 88 9929-5088Ou clique no botão abaixo para solicitar uma ligação de retorno!</p>
-          <button class="btn btn-secundary">Ligue para nós hoje mesmo</button>
+          <a href="" class="btn btn-secundary">Ligue para nós hoje mesmo</a>
         </div>
     </section>
 
@@ -115,7 +93,7 @@
       </article>
   </section>
 
-  <section id="cards" class="grid">
+  <section id="colaboradores" class="grid grid-cards">
       <!-- Seção dos colaboradores -->
        <h1>Inovadores em Energia Solar – Os produtos que adoramos</h1>
       <article class="card">
@@ -150,19 +128,28 @@
         </p>
         <a href="#" class="ver-integracao">Ver integração →</a>
       </article>
- 
-  <section>
-    <!-- Seção de pesquisas -->
-  </section>
-    
-  <footer class="footer flex wrap rg-4 justify-between bg-secundary">
+    </section>
+      
+    <section id="pesquisas">
+      <!-- Seção de pesquisas -->
+      <form class=" flex align-center rg-2 card" action="#header"  target="_blank">     
+          <h1 padding="10px">O que podemos melhorar?</h1>
+          <h2 class="h2-pesquisas"><i>Nós envie sugestões</i></h2>
+          <textarea rows="10" cols="15"></textarea>
+          <p><i>Informe seu email</i></p> 
+          <input type="email" name="email" placeholder="seu email" size="20">
+          <input class="enviar-formulario" type="submit" value="Enviar">
+        </form>
+    </section>
+  
+    <footer id="rodape" class="footer flex wrap rg-4 justify-between bg-secundary">
       <!-- Rodapé da página -->
       <img class="img-footer" src="/assets/img/logo-preto-branco.png" alt="Logo sem cor">
       <nav class=" flex cg-4 ">
-        <a href="id-objetivos">Sobre</a>
-        <a href="id-pesquisas">Imprensa</a>
-        <a href="id-contato">Atendimento ao cliente</a>
-        <a href="id-produtos">Serviços</a>
+        <a href="#objetivos">Sobre</a>
+        <a href="#pesquisas">Imprensa</a>
+        <a href="#contato">Atendimento ao cliente</a>
+        <a href="#produtos">Serviços</a>
       </nav>
   </footer>
 </body>

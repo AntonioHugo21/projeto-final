@@ -16,7 +16,7 @@
 a{
     color: unset;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 6;
 }
 
@@ -132,6 +132,12 @@ p{
     gap: 20px;
 }
 
+.grid-cards{
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+}
+
 .cg-2{
     column-gap: 10px;
 }
@@ -162,30 +168,23 @@ p{
     color: white;
     border-radius: 20px;
     padding: 10px 25px;
-    font-size: 8pt;
+    font-size: 10pt;
     font-weight: 800;
     border: unset;
 }
 
 
 
-.btn-login{
-    color: black;
-    border-radius: 10px;
-    padding: 10px 25px;
-    font-size: 8pt;
-    font-weight: 800;
-    border: unset;
-    height: 50px;
-    width: 130px;
+.btn-header{
+    background-color: #098e7e;
+    height: 70px;
 }
 
 
 .btn-primary{
-    color: white;
     background-color: var(--COLOR-PRIMARY);
-    padding: 4px 12px;
-    width: 400px;
+    font-size: 50pt;
+    width: 350px;
     height: 40px;
 }
 
@@ -259,15 +258,17 @@ position: absolute;
   border-radius: 10px;
 }
 
+
+
 .texto-sobre-imagem .btn-primary {
   position: absolute;
   top: 55%; /* Ajuste conforme necessário */
-  left: 23.4%; /* Ajuste conforme necessário */
+  left: 24%; /* Ajuste conforme necessário */
   transform: translate(-50%, -50%);
   color: white;
-  border-radius: 7px;
+  border-radius: 15px;
   padding: 10px 25px;
-  font-size: 10pt;
+  font-size: 15pt;
   font-weight: 800;
   border: unset;
   background-color: var(--COLOR-PRIMARY);
