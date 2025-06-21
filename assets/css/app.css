@@ -183,8 +183,8 @@ p{
 
 .btn-primary{
     background-color: var(--COLOR-PRIMARY);
-    font-size: 50pt;
-    width: 350px;
+    padding: 4px 12px;
+    width: 400px;
     height: 40px;
 }
 
@@ -193,7 +193,7 @@ p{
     background-color: var(--COLOR-THIRD);
     padding: 4px 12px;
     width: 400px;
-    height: 40px;
+    height: 60px;
 }
 
 
