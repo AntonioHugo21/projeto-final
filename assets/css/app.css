@@ -21,21 +21,23 @@ a{
 }
 
 h1{
-    font-size: 40px;
+    font-size: 45px;
     font-weight: bold;
 }
 
-.h1-login{
-    margin-top: 60px;
+h2{
+    font-size: 35px;
+}
+
+h3{
+    font-size: 25px;
+}
+.h1-produtos{
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .h2-pesquisas{
     color: var(--COLOR-PRIMARY);
-}
-
-.h3-cards{
-    font-size: 20;
-    font-weight: 800;
 }
 
 .card img{
@@ -50,12 +52,18 @@ pre{
 }
 
 p{
-    font-size: 25px;
+    font-size: 18px;
     font-weight: 600;
 }
 
 .p-produtos{
     font-size: 16pt;
+    color: #475467;
+    align-items: left;
+}
+
+.p-colaboradores{
+    font-size: 14pt;
     color: #475467;
     align-items: left;
 }
@@ -129,13 +137,14 @@ p{
 .grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 20px;
+    gap: 2rem;
+    padding: 0 2rem;
+
 }
 
 .grid-cards{
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 30px;
-    margin-top: 40px;
 }
 
 .cg-2{
@@ -166,7 +175,6 @@ p{
 
 .btn{
     color: white;
-    border-radius: 20px;
     padding: 10px 25px;
     font-size: 10pt;
     font-weight: 800;
@@ -184,7 +192,7 @@ p{
 .btn-primary{
     background-color: var(--COLOR-PRIMARY);
     padding: 4px 12px;
-    width: 400px;
+    width: 350px;
     height: 40px;
 }
 
@@ -192,8 +200,9 @@ p{
     color: black;
     background-color: var(--COLOR-THIRD);
     padding: 4px 12px;
-    width: 400px;
-    height: 60px;
+    width: 350px;
+    height: 40px;
+    border-radius: 8px;
 }
 
 
@@ -263,12 +272,12 @@ position: absolute;
 .texto-sobre-imagem .btn-primary {
   position: absolute;
   top: 55%; /* Ajuste conforme necessário */
-  left: 24%; /* Ajuste conforme necessário */
+  left: 21.6%; /* Ajuste conforme necessário */
   transform: translate(-50%, -50%);
   color: white;
-  border-radius: 15px;
+  border-radius: 8px;
   padding: 10px 25px;
-  font-size: 15pt;
+  font-size: 12pt;
   font-weight: 800;
   border: unset;
   background-color: var(--COLOR-PRIMARY);
@@ -280,7 +289,6 @@ position: absolute;
   left: 55%; /* Ajuste conforme necessário */
   transform: translate(-50%, -50%);
   color: black;
-  border-radius: 7px;
   padding: 10px 25px;
   font-size: 10pt;
   font-weight: 800;
@@ -316,4 +324,8 @@ input{
     color: var(--COLOR-PRIMARY);
     font-weight: 550;
     font-size: 20px;
+}
+
+.margin-top{
+    margin-top: 40px;
 }
