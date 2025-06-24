@@ -11,7 +11,7 @@
 *{
     margin: 0;
     padding: 0;
-}
+    font-family: "Poppins", sans-serif;}
 
 a{
     color: unset;
@@ -163,6 +163,11 @@ p{
     row-gap: 20px;
 }
 
+.div-noscontacte{
+    position: relative;
+    top: 20px;
+}
+
 .card {
     box-shadow: -1px -2px 8px 1px rgba(0,0,0,0.34);
     border-radius: 7px;
@@ -247,7 +252,7 @@ img{
 .texto-sobre-imagem h1 {
   position: absolute;
   top: 30%; /* centraliza verticalmente */
-  left: 20%; /* centraliza horizontalmente */
+  left: 23.8%; /* centraliza horizontalmente */
   transform: translate(-50%, -50%); /* ajusta a posição para o centro exato */
   color: white;
   text-align: center;
@@ -258,7 +263,7 @@ img{
 .texto-sobre-imagem pre {
 position: absolute;
   top: 45%; /* centraliza verticalmente */
-  left: 20%; /* centraliza horizontalmente */
+  left: 28.4%; /* centraliza horizontalmente */
   transform: translate(-50%, -50%); /* ajusta a posição para o centro exato */
   color: white;
   font-size: 20px;
@@ -271,7 +276,7 @@ position: absolute;
 
 .texto-sobre-imagem .btn-primary {
   position: absolute;
-  top: 55%; /* Ajuste conforme necessário */
+  top: 60%; /* Ajuste conforme necessário */
   left: 21.6%; /* Ajuste conforme necessário */
   transform: translate(-50%, -50%);
   color: white;
